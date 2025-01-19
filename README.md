@@ -21,3 +21,20 @@ P(at least one match) = 1 - P(no match)
 This simulation uses Monte Carlo methods to empirically estimate these probabilities by simulating random birthday assignments across many trials for varying group sizes.
 
 ---
+
+## Folder Structure
+
+```
+statistical-simulation-birthday-paradox
+├── scripts
+│   ├── 01_simulation.py      # Runs simulations for various group sizes
+│   ├── 02_analysis.py        # Analyzes simulation results
+│   ├── 03_visualization.py   # Generates plots based on analysis
+├── outputs
+│   ├── simulation_results.csv # Stores results of the simulations
+│   ├── analysis_results.csv   # Stores analyzed statistics
+│   └── visualizations      # Folder for generated plots
+├── config.py                  # Configurations for the simulation
+├── README.md                  # Project documentation
+└── requirements.txt           # Python dependencies
+```
