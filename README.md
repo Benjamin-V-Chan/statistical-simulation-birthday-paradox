@@ -38,3 +38,43 @@ statistical-simulation-birthday-paradox
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies
 ```
+
+---
+
+## Usage
+
+1. **Setup the Project:**
+    - Clone the repository.
+    - Ensure you have Python installed.
+    - Install required dependencies using the `requirements.txt` file.
+
+      ```bash
+      pip install -r requirements.txt
+      ```
+
+2. **Run the Simulation:**
+    - Navigate to the `scripts` folder.
+    - Execute the `01_simulation.py` script to perform the birthday paradox simulations.
+
+      ```bash
+      python scripts/01_simulation.py
+      ```
+
+3. **Analyze the Results:**
+    - Run the `02_analysis.py` script to compute statistical insights from the simulation.
+
+      ```bash
+      python scripts/02_analysis.py
+      ```
+
+4. **Visualize the Findings:**
+    - Generate plots using the `03_visualization.py` script.
+
+      ```bash
+      python scripts/03_visualization.py
+      ```
+
+5. **Review Outputs:**
+    - Simulation and analysis results will be stored in the `outputs` folder.
+    - Visualizations will be saved in the `outputs/visualizations` subfolder.
+    
