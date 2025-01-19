@@ -77,4 +77,18 @@ statistical-simulation-birthday-paradox
 5. **Review Outputs:**
     - Simulation and analysis results will be stored in the `outputs` folder.
     - Visualizations will be saved in the `outputs/visualizations` subfolder.
-    
+
+---
+
+## Requirements
+
+- **Python 3.8 or higher**
+- Required Python Libraries:
+  - pandas
+  - matplotlib
+
+Install the dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
